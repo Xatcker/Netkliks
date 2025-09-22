@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netkliks</title>
+    <script src="./script.js" defer></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -33,8 +34,8 @@
         <section class="search">
             <div class="container">
                 <div class="search-box">
-                    <input type="text" placeholder="Что хотите посмотреть?">
-                    <button>
+                    <input id="searchInput" type="text" placeholder="Что хотите посмотреть?">
+                    <button id="searchButton">
                         <img src="./images/search.svg" alt="search">
                         <span>Найти</span>
 
@@ -49,8 +50,57 @@
                     <div class="content-main">
                         <h2 class="content-main__title">Результаты поиска</h2>
 
-                        <div class="content-cards">
-                            <div class="content-cards__item">
+                        <div class="content-cards">                  
+                            <a href="./film.html" class="content-cards__item">
+                                <div class="content-cards__item--img">
+                                    <img src="./images/film.svg" alt="film">
+                                </div>
+                                <div class="content-cards__item--title">
+
+                                    <h5>Марсианин 0,</h5>
+                                    <span>The Martian 2015</span>
+
+                                </div>
+                                <p class="content-cards__item--description">Фантастика, приключения</p>
+    
+                                <p class="content-cards__item--reting">7.8</p>
+
+                            </a>
+
+                            <a href="./film.html" class="content-cards__item">
+                                <div class="content-cards__item--img">
+                                    <img src="./images/film.svg" alt="film">
+                                </div>
+                                <div class="content-cards__item--title">
+
+                                    <h5>Марсианин 0,</h5>
+                                    <span>The Martian 2015</span>
+
+                                </div>
+                                <p class="content-cards__item--description">Фантастика, приключения</p>
+    
+                                <p class="content-cards__item--reting">7.8</p>
+
+                            </a>
+
+                            <a href="./film.html" class="content-cards__item">
+                                <div class="content-cards__item--img">
+                                    <img src="./images/film.svg" alt="film">
+                                </div>
+                                <div class="content-cards__item--title">
+
+                                    <h5>Марсианин 0,</h5>
+                                    <span>The Martian 2015</span>
+
+                                </div>
+                                <p class="content-cards__item--description">Фантастика, приключения</p>
+    
+                                <p class="content-cards__item--reting">7.8</p>
+
+                            </a>
+
+                                              
+                            <a href="" class="content-cards__item">
                                 <div class="content-cards__item--img">
                                     <img src="./images/film.svg" alt="film">
                                 </div>
@@ -61,10 +111,27 @@
 
                                 </div>
                                 <p class="content-cards__item--description">Фантастика, приключения</p>
+    
                                 <p class="content-cards__item--reting">7.8</p>
 
-                            </div>
-                            <div class="content-cards__item">
+                            </a>
+<a href="./film.html" class="content-cards__item">
+                                <div class="content-cards__item--img">
+                                    <img src="./images/film.svg" alt="film">
+                                </div>
+                                <div class="content-cards__item--title">
+
+                                    <h5>Марсианин 0,</h5>
+                                    <span>The Martian 2015</span>
+
+                                </div>
+                                <p class="content-cards__item--description">Фантастика, приключения</p>
+    
+                                <p class="content-cards__item--reting">7.8</p>
+
+                            </a>
+                                              
+                            <a href="" class="content-cards__item">
                                 <div class="content-cards__item--img">
                                     <img src="./images/film.svg" alt="film">
                                 </div>
@@ -75,67 +142,12 @@
 
                                 </div>
                                 <p class="content-cards__item--description">Фантастика, приключения</p>
+    
                                 <p class="content-cards__item--reting">7.8</p>
 
-                            </div>
-                            <div class="content-cards__item">
-                                <div class="content-cards__item--img">
-                                    <img src="./images/film.svg" alt="film">
-                                </div>
-                                <div class="content-cards__item--title">
-
-                                    <h5>Марсианин,</h5>
-                                    <span>The Martian 2015</span>
-
-                                </div>
-                                <p class="content-cards__item--description">Фантастика, приключения</p>
-                                <p class="content-cards__item--reting">7.8</p>
+                            </a>
 
                             </div>
-                            <div class="content-cards__item">
-                                <div class="content-cards__item--img">
-                                    <img src="./images/film.svg" alt="film">
-                                </div>
-                                <div class="content-cards__item--title">
-
-                                    <h5>Марсианин,</h5>
-                                    <span>The Martian 2015</span>
-
-                                </div>
-                                <p class="content-cards__item--description">Фантастика, приключения</p>
-                                <p class="content-cards__item--reting">7.8</p>
-
-                            </div>
-                            <div class="content-cards__item">
-                                <div class="content-cards__item--img">
-                                    <img src="./images/film.svg" alt="film">
-                                </div>
-                                <div class="content-cards__item--title">
-
-                                    <h5>Марсианин,</h5>
-                                    <span>The Martian 2015</span>
-
-                                </div>
-                                <p class="content-cards__item--description">Фантастика, приключения</p>
-                                <p class="content-cards__item--reting">7.8</p>
-
-                            </div>
-                            <div class="content-cards__item">
-                                <div class="content-cards__item--img">
-                                    <img src="./images/film.svg" alt="film">
-                                </div>
-                                <div class="content-cards__item--title">
-
-                                    <h5>Марсианин,</h5>
-                                    <span>The Martian 2015</span>
-
-                                </div>
-                                <p class="content-cards__item--description">Фантастика, приключения</p>
-                                <p class="content-cards__item--reting">7.8</p>
-
-                            </div>
-
-                        </div>
 
 
 
